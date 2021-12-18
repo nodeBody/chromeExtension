@@ -1,0 +1,11 @@
+- Manifest.json
+    - This is the main file which sets rules of interaction and comments are not supported.
+- Content_Scripts
+    - You can multiple content files here we write code that will comunicate with the page and will run after page is loaded.
+    - Matches property specifies on which webpages this extension will work and we can also use wild cards to specify urls
+- Background
+    - only one file will be used here we will write the code that will be executed in the background and will comunicate with the webbrowser
+- Icons 
+    - Used to provide images for icons multiple images of variable size are reccomended for better results and compatibility.
+- Actions
+    - used to make extension responsive to clicks 
